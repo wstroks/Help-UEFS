@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "493968448889",
+    "firebase_url": "https://ajudeme-89796.firebaseio.com",
+    "project_id": "ajudeme-89796",
+    "storage_bucket": "ajudeme-89796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493968448889:android:387bb20494cd9ff6",
+        "android_client_info": {
+          "package_name": "com.uefs.pagotto.ajudeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493968448889-jol450snuld75ffao1rh7gh9215anejo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uefs.pagotto.ajudeme",
+            "certificate_hash": "533bd6bb5706c13f7d909667e5390092af35b038"
+          }
+        },
+        {
+          "client_id": "493968448889-gme453viedjkhebldqih658rvp9rlvt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7XYMtJ5gGHswUciznNcfh28PQ81U3N9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493968448889-gme453viedjkhebldqih658rvp9rlvt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
