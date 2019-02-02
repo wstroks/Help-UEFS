@@ -1,6 +1,7 @@
 package com.uefs.pagotto.ajudeme.activity;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -161,7 +162,9 @@ public class CorridaActivity extends AppCompatActivity
 
     }
 
+    @SuppressLint("RestrictedApi")
     private void requisicaoFinalizada(){
+        //fabRota.setVisibility(View.GONE);
 
         fabRota.setVisibility(View.GONE);
         requisicaoAtiva = false;
@@ -186,7 +189,7 @@ public class CorridaActivity extends AppCompatActivity
         DecimalFormat decimal = new DecimalFormat("0.00");
         String resultado = decimal.format(valor);
 
-        buttonAceitarCorrida.setText("Corrida finalizada - R$ " + resultado );
+        buttonAceitarCorrida.setText("Ajuda Finalizada" );
 
     }
 
@@ -198,7 +201,7 @@ public class CorridaActivity extends AppCompatActivity
 
     private void requisicaoAguardando(){
 
-        buttonAceitarCorrida.setText("Aceitar corrida");
+        buttonAceitarCorrida.setText("Aceitar Alvo");
 
         //Exibe marcador do motorista
         adicionaMarcadorMotorista(localMotorista, motorista.getNome() );
@@ -208,7 +211,7 @@ public class CorridaActivity extends AppCompatActivity
 
     private void requisicaoACaminho(){
 
-        buttonAceitarCorrida.setText("A caminho do passageiro");
+        buttonAceitarCorrida.setText("A caminho do Alvo");
         fabRota.setVisibility(View.VISIBLE);
 
         //Exibe marcador do motorista
@@ -467,7 +470,7 @@ public class CorridaActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Iniciar corrida");
+        getSupportActionBar().setTitle("Iniciar ajuda");
 
         buttonAceitarCorrida = findViewById(R.id.buttonAceitarCorrida);
 

@@ -9,8 +9,8 @@
         android:id="@+id/textRequisicaoNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jamilton Damasceno"
-        android:textSize="18sp"
+        android:text="Voluntário"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
@@ -18,5 +18,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0 km- aproximadamente"
-        android:textSize="12sp" />
+        android:textSize="25sp" />
 </LinearLayout>

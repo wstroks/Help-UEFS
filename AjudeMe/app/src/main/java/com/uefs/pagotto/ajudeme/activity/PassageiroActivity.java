@@ -191,7 +191,7 @@ public class PassageiroActivity extends AppCompatActivity
     private void requisicaoCancelada(){
 
         linearLayoutDestino.setVisibility( View.VISIBLE );
-        buttonChamarUber.setText("Chamar Uber");
+        buttonChamarUber.setText("Chamar Help!");
         cancelarUber = false;
 
     }
@@ -199,7 +199,7 @@ public class PassageiroActivity extends AppCompatActivity
     private void requisicaoAguardando(){
 
         linearLayoutDestino.setVisibility( View.GONE );
-        buttonChamarUber.setText("Cancelar Uber");
+        buttonChamarUber.setText("Cancelar Help!");
         cancelarUber = true;
 
         //Adiciona marcador passageiro
@@ -211,7 +211,7 @@ public class PassageiroActivity extends AppCompatActivity
     private void requisicaoACaminho(){
 
         linearLayoutDestino.setVisibility( View.GONE );
-        buttonChamarUber.setText("Motorista a caminho");
+        buttonChamarUber.setText("Voluntário a caminho");
         buttonChamarUber.setEnabled(false);
 
         //Adiciona marcador passageiro
@@ -264,14 +264,14 @@ public class PassageiroActivity extends AppCompatActivity
         float valor = distancia * 8;
         DecimalFormat decimal = new DecimalFormat("0.00");
         String resultado = decimal.format(valor);
-
-        buttonChamarUber.setText("Corrida finalizada - R$ " + resultado);
+        //buttonChamarUber.setText("Corrida finalizada - R$ " + resultado);
+        buttonChamarUber.setText("Ajuda Finalizada ");
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this)
-                .setTitle("Total da viagem")
-                .setMessage("Sua viagem ficou: R$ " + resultado)
+                .setTitle("Help!")
+                .setMessage("Obrigado por ajudar seu amigo!! Ficamos Felizes que deu tudo certo")
                 .setCancelable(false)
-                .setNegativeButton("Encerrar viagem", new DialogInterface.OnClickListener() {
+                .setNegativeButton("Encerrar", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
@@ -457,7 +457,7 @@ public class PassageiroActivity extends AppCompatActivity
         requisicao.salvar();
 
         linearLayoutDestino.setVisibility( View.GONE );
-        buttonChamarUber.setText("Cancelar Uber");
+        buttonChamarUber.setText("Cancelar Help!");
 
     }
 
@@ -570,7 +570,7 @@ public class PassageiroActivity extends AppCompatActivity
     private void inicializarComponentes(){
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Iniciar uma viagem");
+        toolbar.setTitle("Chamar Voluntário");
         setSupportActionBar(toolbar);
 
         //Inicializar componentes

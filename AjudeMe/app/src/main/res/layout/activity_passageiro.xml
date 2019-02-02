@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.uefs.pagotto.ajudeme.activity.CorridaActivity$PassageiroActivity">
+    tools:context="com.uefs.pagotto.ajudeme.activity.PassageiroActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -70,8 +70,9 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="bottom"
+        android:background="@color/btnLogin"
         android:onClick="chamarUber"
-        android:text="Chamar Uber"
+        android:text="Chamar Voluntário"
         android:theme="@style/botaoPadrao" />
 
 </android.support.design.widget.CoordinatorLayout>
