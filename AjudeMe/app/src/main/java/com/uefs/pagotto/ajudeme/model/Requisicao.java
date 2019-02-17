@@ -6,9 +6,7 @@ import com.uefs.pagotto.ajudeme.config.ConfiguracaoFirebase;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class Requisicao {
 

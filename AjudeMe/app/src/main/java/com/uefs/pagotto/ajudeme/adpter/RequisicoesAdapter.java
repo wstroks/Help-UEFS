@@ -15,9 +15,7 @@ import com.uefs.pagotto.ajudeme.model.Usuario;
 
 import java.util.List;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class RequisicoesAdapter extends RecyclerView.Adapter<RequisicoesAdapter.MyViewHolder> {
 

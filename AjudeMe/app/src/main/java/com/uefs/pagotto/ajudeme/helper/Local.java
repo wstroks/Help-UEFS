@@ -8,9 +8,7 @@ import com.google.android.gms.maps.model.Marker;
 
 import java.text.DecimalFormat;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class Local {
 

@@ -6,9 +6,7 @@ import com.uefs.pagotto.ajudeme.config.ConfiguracaoFirebase;
 
 import java.io.Serializable;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class Usuario implements Serializable {
 

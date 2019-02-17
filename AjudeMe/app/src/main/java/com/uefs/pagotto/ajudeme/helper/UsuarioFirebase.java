@@ -22,9 +22,7 @@ import com.uefs.pagotto.ajudeme.activity.RequisicoesActivity;
 import com.uefs.pagotto.ajudeme.config.ConfiguracaoFirebase;
 import com.uefs.pagotto.ajudeme.model.Usuario;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class UsuarioFirebase {
 

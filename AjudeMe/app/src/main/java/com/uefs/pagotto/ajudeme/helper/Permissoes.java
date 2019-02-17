@@ -9,9 +9,7 @@ import android.support.v4.content.ContextCompat;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class Permissoes {
 

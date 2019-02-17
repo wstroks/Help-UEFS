@@ -377,7 +377,6 @@ public class PassageiroActivity extends AppCompatActivity
     }
 
     public void chamarUber(View view){
-
         //false -> uber não pode ser cancelado ainda
         //true -> uber pode ser cancelado
         if( cancelarUber ){//Uber pode ser cancelado

@@ -1,8 +1,6 @@
 package com.uefs.pagotto.ajudeme.model;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class Destino {
 
